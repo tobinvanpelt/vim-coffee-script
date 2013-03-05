@@ -58,6 +58,8 @@ CompilerSet errorformat=Error:\ In\ %f\\,\ %m\ on\ line\ %l,
                        \SyntaxError:\ In\ %f\\,\ %m,
                        \%-G%.%#
 
+CompilerSet shellpipe&
+
 " Compile the current file.
 command! -bang -bar -nargs=* CoffeeMake make<bang> <args>
 
